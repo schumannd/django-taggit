@@ -8,11 +8,8 @@ from django.utils.encoding import python_2_unicode_compatible
 from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import ugettext
 
-<<<<<<< HEAD
 from unidecode import unidecode
-=======
 from taggit.utils import _get_field
->>>>>>> upstream/master
 
 try:
     from django.contrib.contenttypes.fields import GenericForeignKey
